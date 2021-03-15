@@ -1,2 +1,0 @@
-# nicholasneytchev
-Website about me
