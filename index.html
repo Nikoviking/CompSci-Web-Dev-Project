@@ -28,7 +28,7 @@
             /* Needed for children to be absolutely positioned relative to the parent. */
             position: relative;
             /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-            height: 80vh; 
+            height: 80vh;
 
             /* For text formatting. */
             display: flex;
@@ -83,7 +83,6 @@
                 background-color: #e67e22;
                 overflow: auto;
                 z-index: 100;
-                transition: background-color 0.5s;
             }
 
         .menuBar a {
@@ -94,6 +93,7 @@
             font-weight: 600;
             font-family: "Roboto";
             text-decoration: none;
+            transition: background-color 0.5s;
         }
 
         .menuBar a:hover {
@@ -281,7 +281,7 @@
     <div class="menuBar">
         <a href="./homepage.html" class="active">Home</a>
         <a href="./AboutMe.html">About Me</a>
-        <a href="./CareerPage.html" title="My career">My Career Path</a>
+        <a href="./CareerPage.html">My Career Path</a>
         <a href="#">My Ambitions</a>
         <a href="#">Learn Binary</a>
     </div>
